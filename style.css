@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .form {
+  background-color: #ccc;
+  width: 100%;
+  margin: 0 auto;
+} */
+body {
+  /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.SO9nkpCbZPndqMJGUoIhIgHaEK&pid=Api&P=0&h=220"); */
+  background-size: cover;
+  background-image: linear-gradient(#536976, #292e49);
+}
+.container {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  /* border: 1px solid #ccc; */
+  width: fit-content;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 1px 1px #ccc;
+  position: relative;
+}
+h1 {
+  margin-bottom: 30px;
+  padding: 15px 30px;
+  background-color: #353434;
+  color: white;
+  border-radius: 20px;
+}
+.username,
+.pass {
+  display: block;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 30px;
+  width: 300px;
+  border: 1px solid black;
+}
+.submitBtn {
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  transition: 0.5s all;
+  margin-top: 40px;
+}
+.submitBtn:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+#userNameErr {
+  color: #eee;
+  margin-top: 5px;
+  /* display: none; */
+  opacity: 0;
+}
+#passErr {
+  color: #eee;
+  margin-top: 5px;
+  /* display: none; */
+  opacity: 0;
+}
+#BtnShowPass {
+  cursor: pointer;
+  position: absolute;
+  top: 297px;
+  left: 290px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}

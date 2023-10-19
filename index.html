@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <button id="BtnShowPass">show</button>
+      <form id="form" class="form" action="quiz.html">
+        <input
+          autocomplete="off"
+          name="username"
+          class="username"
+          type="text"
+          placeholder="enter your username"
+        />
+        <p id="userNameErr">username minimum length is 6</p>
+        <input
+          name="password"
+          class="pass"
+          type="password"
+          placeholder="enter your password"
+        />
+        <p id="passErr">Password minimum length is 8</p>
+        <input class="submitBtn" type="submit" value="Login" />
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
